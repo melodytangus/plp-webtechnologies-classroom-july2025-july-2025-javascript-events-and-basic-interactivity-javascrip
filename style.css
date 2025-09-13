@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.dark-mode {
+  background: #222;
+  color: #eee;
+}
+
+/* FAQ */
+.faq-answer {
+  display: none;
+  margin: 5px 0;
+  padding: 5px;
+  background: #f4f4f4;
+}
+.faq-question {
+  width: 100%;
+  text-align: left;
+  background: #ddd;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Errors */
+.error {
+  color: red;
+  font-size: 0.9em;
+  display: block;
+}
+#successMsg {
+  color: green;
+  font-weight: bold;
+}
